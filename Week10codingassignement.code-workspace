@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Week-09-Bootstrap"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Week-10-JavaScript_and_DOM_Manipulation"
+	}
+}

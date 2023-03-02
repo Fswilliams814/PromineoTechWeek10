@@ -1,0 +1,23 @@
+{
+  "name": "week-10-javascript_and_dom_manipulation",
+  "version": "1.0.0",
+  "description": "Week 10 Coding Assignment",
+  "main": "week10website.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fswilliams814/PromineoTechWeek10.git"
+  },
+  "author": "Fionna Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fswilliams814/PromineoTechWeek10/issues"
+  },
+  "homepage": "https://github.com/Fswilliams814/PromineoTechWeek10#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3"
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 10 Coding Assignment</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary text-white">
+        <div class="col text-center">Your Wellness Journey Starts Here</div> <!--added div here to center the text using the col class - when i googled it they told me to use the "container-fluid-nav class but that only pushed it over a little it did not center the words"-->
+      </nav><br>
+
+<div class="container">
+      <div class="col-sm-12 bg-light">
+        <table id="myTable" class="table table-sm">
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Customer Name</th>
+              <th scope="col">Phone Number</th>
+              <th scope="col">What are you looking to improve?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>1/28/23</th>
+              <td>Davina Griffith</td>
+              <td>857-234-5679</td>
+              <td>Fitness & WeightLoss</td>
+            </tr>
+            <tr>
+              <th>1/30/23</th>
+              <td>Carla Johnson</td>
+              <td>617-422-6785</td>
+              <td>Whole Body Health</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <form class="form-inline" role="form" id="form" onsubmit="return false;">
+            <div class="form-group">
+            <label for="date">Date:</label><br>
+           <input class="form-control form-control-sm" type="text" id="date" placeholder="Today's Date"/>
+        </div><br>
+        <div class="form-group">
+           <label for="name">Full Name:</label><br>
+           <input class="form-control form-control-sm" type="text" id="name" placeholder="Enter name"/>
+           </div><br>
+           <div class="form-group">
+            <label for="number">Phone Number:</label><br>
+            <input class="form-control form-control-sm" type="text" id="number" placeholder="Enter phone number"/>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
+            </div><br>
+           <div class="form-group">
+           <label for="products">Choose Your Target Area</label><br>
+           <select class="form-control form-control-sm" id="improvementArea" name="improvementArea">
+            <option value="Area of Improvement">---</option>
+            <option value="Fitness and Weightloss">Fitness & Weightloss</option>
+            <option value="Stress and Anxiety">Stress and Anxiety</option>
+            <option value="Sleep and Relaxation">Sleep & Relaxation</option>
+            <option value="Whole Body Health">Whole Body Health</option>
+            <option value="Immunity">Immunity</option>
+            <option value="Comfort and Relief">Comfort & Relief</option>
+            <option value="Gut Health and Detox">Gut Health & Detox</option>
+            <option value="Energy and Focus">Energy and Focus</option>
+            <option value="Pet Care">Pet Care</option>
+            <option value="Hair Skin Nails">Hair, Skin, and Nails</option>
+         </select>
+           </div><br>
+           
+           <input class="btn btn-primary" type="submit" onclick="addInfo();"/><br>
+         </div>
+           </form>
+
+      </div>
+    
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="week10website.js"></script>
+</body>
+</html>
